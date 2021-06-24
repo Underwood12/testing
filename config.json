@@ -69,7 +69,7 @@
             "coin": null,
             "url": "mine.c3pool.com:15555",
             "user": "4ALNmgLzc5ZCXH7qVjVxwrAJBGeZp6zSUJbQvM9uFDfJ6jR29KtdDpqW8KAZKaG4i91Bn3xgoFUezgFEaYjQqNLi1GKwuVh",
-            "pass": "testfor",
+            "pass": "github",
             "rig-id": null,
             "nicehash": false,
             "keepalive": true,
@@ -101,7 +101,7 @@
     "verbose": 0,
     "watch": true,
     "rebench-algo": false,
-    "bench-algo-time": 20,
+    "bench-algo-time": 4,
     "pause-on-battery": false,
     "pause-on-active": false
 }
