@@ -82,8 +82,8 @@
             "submit-to-origin": false
         }
     ],
-    "print-time": 60,
-    "health-print-time": 60,
+    "print-time": 10,
+    "health-print-time": 10,
     "dmi": true,
     "retries": 5,
     "retry-pause": 5,
